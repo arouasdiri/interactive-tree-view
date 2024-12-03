@@ -1,0 +1,43 @@
+.tree-diagram-container {
+    text-align: center;
+}
+
+.tree-diagram-svg {
+    width: 1000px;
+    height: 600px;
+}
+
+.tree-diagram-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.tree-diagram-button:hover {
+    background-color: #0056b3;
+}
+
+.link {
+    stroke: #ccc;
+    stroke-width: 2px;
+    fill: none;
+}
+
+.node circle {
+    r: 20;
+    stroke: black;
+    stroke-width: 2px;
+}
+
+.node text {
+    font-size: 12px;
+    font-weight: bold;
+    text-anchor: middle;
+    fill: #333;
+}
